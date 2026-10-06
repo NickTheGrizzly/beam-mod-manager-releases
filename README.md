@@ -44,7 +44,7 @@ Current releases are **not yet code-signed**. Windows SmartScreen may show an "u
 warning when you run the installer — this is expected for an unsigned build, not a sign that
 anything is wrong with it. Verify the SHA-256 hash above instead of relying on the signing prompt.
 
-Code signing under the publisher name **Skidpad Studios** is in progress. Once it lands, releases
+Code signing under the publisher name **NickTheGrizzly** is in progress. Once it lands, releases
 will show that publisher name in the Windows install prompt, and SmartScreen warnings will taper
 off over time as that publisher identity accrues reputation — signing starts that process, it does
 not clear the warning instantly. We'll say so plainly in the release notes for the first signed
