@@ -4,15 +4,15 @@
 
 This policy covers:
 
-- **The BeamNG Mod Manager (BMM) desktop app** — the Windows application published from this
+- **The Beam Mod Manager (BMM) desktop app** — the Windows application published from this
   repository's Releases.
-- **beammodmanager.xyz** — the marketing/download website.
+- **beammodmanager.com** — the marketing/download website.
 - **The BMM licensing Worker** — the Cloudflare Worker that verifies Patreon-connected
   entitlements and related endpoints.
 
 ## Reporting a vulnerability
 
-Email **security@beammodmanager.xyz** with details. Please include:
+Email **security@beammodmanager.com** with details. Please include:
 
 - **Version** — the BMM app version (or the website/Worker date/URL) affected.
 - **Steps to reproduce** — as specific as you can make them.
