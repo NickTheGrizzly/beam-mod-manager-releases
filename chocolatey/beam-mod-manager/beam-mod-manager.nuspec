@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>beam-mod-manager</id>
-    <version>0.9.6</version>
+    <version>0.9.7</version>
     <title>Beam Mod Manager</title>
     <authors>NickTheGrizzly</authors>
     <owners>NickTheGrizzly</owners>
@@ -13,7 +13,14 @@
     <packageSourceUrl>https://github.com/NickTheGrizzly/beam-mod-manager-releases/tree/main/chocolatey/beam-mod-manager</packageSourceUrl>
     <docsUrl>https://beammodmanager.com/faq</docsUrl>
     <bugTrackerUrl>https://discord.gg/dR43TEaQ4f</bugTrackerUrl>
-    <releaseNotes>https://beammodmanager.com/#changelog</releaseNotes>
+    <releaseNotes>- New Mod Health page (Player and Supporter): one place that checks your mods for problems — mods that won’t load, active mods missing a dependency, and file conflicts, each in its own clearly marked section. Conflicts and Dependencies now live here, and more checks will be added to it over time.
+- Broken downloads (empty zips) moved from Duplicates to Mod Health. Free users still see how many there are, and can delete an empty (0 B) one from the library by clicking it.
+- Conflicts are listed in Mod Health but no longer counted in the sidebar badge — they’re usually harmless.
+- A mod with several versions in your library now has a Manage versions button in its details, which takes you straight to Duplicates → Multiple versions. The open build is labelled “Currently viewing this file”.
+- Duplicates has an Ignored Folder button once you’ve removed a mod but kept its .zip, so you can find those files in one click.
+- Each mod in a load-out’s full view now has an X to remove it from that load-out without opening the editor. It asks you to confirm first, and so does the X in the load-out details list.
+
+Full changelog: https://beammodmanager.com/#changelog</releaseNotes>
     <copyright>Copyright © 2026 NickTheGrizzly</copyright>
     <tags>beamng beamng-drive beammp mod-manager mods modding load-outs game-utility freeware</tags>
     <summary>Free mod manager for BeamNG.drive and BeamMP with instant hardlink switching.</summary>
