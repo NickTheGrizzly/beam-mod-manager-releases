@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>beam-mod-manager</id>
-    <version>0.9.7</version>
+    <version>0.9.8</version>
     <title>Beam Mod Manager</title>
     <authors>NickTheGrizzly</authors>
     <owners>NickTheGrizzly</owners>
@@ -13,12 +13,9 @@
     <packageSourceUrl>https://github.com/NickTheGrizzly/beam-mod-manager-releases/tree/main/chocolatey/beam-mod-manager</packageSourceUrl>
     <docsUrl>https://beammodmanager.com/faq</docsUrl>
     <bugTrackerUrl>https://discord.gg/dR43TEaQ4f</bugTrackerUrl>
-    <releaseNotes>- New Mod Health page (Player and Supporter): one place that checks your mods for problems — mods that won’t load, active mods missing a dependency, and file conflicts, each in its own clearly marked section. Conflicts and Dependencies now live here, and more checks will be added to it over time.
-- Broken downloads (empty zips) moved from Duplicates to Mod Health. Free users still see how many there are, and can delete an empty (0 B) one from the library by clicking it.
-- Conflicts are listed in Mod Health but no longer counted in the sidebar badge — they’re usually harmless.
-- A mod with several versions in your library now has a Manage versions button in its details, which takes you straight to Duplicates → Multiple versions. The open build is labelled “Currently viewing this file”.
-- Duplicates has an Ignored Folder button once you’ve removed a mod but kept its .zip, so you can find those files in one click.
-- Each mod in a load-out’s full view now has an X to remove it from that load-out without opening the editor. It asks you to confirm first, and so does the X in the load-out details list.
+    <releaseNotes>- Mod Health (Player and Supporter) now spots mods that are packed in a way BeamNG can’t load: everything wrapped in an extra folder inside the zip, or a zip that only holds other zips. They show up in a new “Won’t load: packaged wrong” section and count toward the sidebar badge.
+- Open one of those mods and its details explain what’s wrong and how to fix it, including the name of the extra folder.
+- After updating, BMM asks for a one-time rescan so it can check every mod’s packaging.
 
 Full changelog: https://beammodmanager.com/#changelog</releaseNotes>
     <copyright>Copyright © 2026 NickTheGrizzly</copyright>
